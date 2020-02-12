@@ -1,0 +1,323 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 717662400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "E2E_UserListTable_Validation.before(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify valid dog breed search results from API",
+        "description": "",
+        "id": "e2e-automated-scenario-for-validating-different-types-of-dogs-in-dog-api;verify-valid-dog-breed-search-results-from-api",
+        "after": [
+          {
+            "result": {
+              "duration": 466942300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "E2E_UserListTable_Validation.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4123082000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"DogAPI\" is launched successfully to verify all dog breeds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DogAPI",
+                  "offset": 1
+                }
+              ],
+              "location": "E2E_DogAPI_Validation.is_launched_successfully_to_verify_all_dog_breeds(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1056800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies for specific breed \"retriever\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "retriever",
+                  "offset": 34
+                }
+              ],
+              "location": "E2E_DogAPI_Validation.user_verifies_for_specific_breed(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1014729900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify  the successfull response code with breedname as \"retriever\" along with sub-breed name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "retriever",
+                  "offset": 57
+                }
+              ],
+              "location": "E2E_DogAPI_Validation.verify_the_successfull_response_code_with_breedname_as_along_with_sub_breed_name(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1811748400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify random image for the sub-breed \"golden\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "golden",
+                  "offset": 39
+                }
+              ],
+              "location": "E2E_DogAPI_Validation.verify_random_image_for_the_sub_breed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          },
+          {
+            "name": "@Chrome"
+          },
+          {
+            "name": "@validateDogAPI"
+          }
+        ]
+      }
+    ],
+    "name": "E2E automated scenario for validating different types of dogs in Dog API",
+    "description": "As a user\nI want to validate the results are displayed when I get response for specific breed from Dog API.",
+    "id": "e2e-automated-scenario-for-validating-different-types-of-dogs-in-dog-api",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/wf/scenarios/E2E_DogAPI_Validation.feature",
+    "tags": [
+      {
+        "name": "@End2End",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Chrome",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      },
+      {
+        "name": "@validateDogAPI",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12847537500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "UserListTbale website is opened in targetbrowser and hompage is loaded successfully with loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "targetbrowser",
+                  "offset": 35
+                },
+                {
+                  "val": "loginURL",
+                  "offset": 89
+                }
+              ],
+              "location": "E2E_UserListTable_Validation.userlisttbale_website_is_opened_in_targetbrowser_and_hompage_is_loaded_successfully_with_loginURL(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1357900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "E2E_UserListTable_Validation.before(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify functionality in userListTable",
+        "description": "",
+        "id": "e2e-automated-scenario-for-validating-user-table;verify-functionality-in-userlisttable;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 831119500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "E2E_UserListTable_Validation.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 602412500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "page is loaded successfully \"userListTable_xpath\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "userListTable_xpath",
+                  "offset": 29
+                }
+              ],
+              "location": "E2E_UserListTable_Validation.page_is_loaded_successfully_is_present(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3870230500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is able to add with \"Password@1\" and \"Company BBB\" and \"Admin\" and \"9132651\" successfully with unique userid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@1",
+                  "offset": 26
+                },
+                {
+                  "val": "Company BBB",
+                  "offset": 43
+                },
+                {
+                  "val": "Admin",
+                  "offset": 61
+                },
+                {
+                  "val": "9132651",
+                  "offset": 73
+                }
+              ],
+              "location": "E2E_UserListTable_Validation.user_is_able_to_add_with_and_and_and_successfully_with_unique_userid(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 501451800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify that user is added successfully in UserListTable",
+            "match": {
+              "location": "E2E_UserListTable_Validation.verify_that_user_is_added_successfully_in_UserListTable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          },
+          {
+            "name": "@Chrome"
+          },
+          {
+            "name": "@validateUserTable"
+          }
+        ]
+      }
+    ],
+    "name": "E2E automated scenario for validating user table",
+    "description": "As a user\nI want to validate that in User List Table new user with unique username is added successfully.",
+    "id": "e2e-automated-scenario-for-validating-user-table",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/wf/scenarios/E2E_Verify_UserTable.feature",
+    "tags": [
+      {
+        "name": "@End2End",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Chrome",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      },
+      {
+        "name": "@validateUserTable",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      }
+    ]
+  }
+]
