@@ -1,5 +1,10 @@
 # AbsaAutomationAssignment
-
+'======================================
+Pre-requisite:
+1.System should have java 1.8.
+2.Maven should have installed as we need to import this project as Maven project.
+3.Chrome version should be Version 80.0.3987.100 (Official Build) (64-bit).
+'=======================================
 1.This repo contains 2 Test-cases related to ABSA assignment.
 2.Project Structure:This project is created as Maven Project using Cucumber BDD feature.
 3.For input data purpose I have used as feature file stored in "src/test/resources/com/wf/scenarios."
